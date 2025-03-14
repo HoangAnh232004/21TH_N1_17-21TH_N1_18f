@@ -16,11 +16,10 @@ function showMemberDetail(memberId) {
 
     if (memberDetails[memberId]) {
         alert(
-            `Tên: ${memberDetails[memberId].name}
-        Vai trò: ${memberDetails[memberId].role}
-        Mô tả: ${memberDetails[memberId].description}`
+            `Tên: ${memberDetails[memberId].name}\n` +
+            `Vai trò: ${memberDetails[memberId].role}\n` +
+            `Mô tả: ${memberDetails[memberId].description}`
         );
-        
     } else {
         alert("Thông tin thành viên đang được cập nhật.");
     }
